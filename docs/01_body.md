@@ -1,10 +1,10 @@
-## I. INTRODUCTION
+## I. Introduction
 
 Large Language Models (LLMs) are changing software
 development. However, their powerful code generation capabilities are often accompanied by a core challenge: a lack of
 output control. Developers frequently receive code that is functionally correct but unnecessarily redundant and insufficient.
 The critical task has become how to precisely guide an LLM
-to produce concise code [1]
+to produce concise code [@schafer2023empirical]
 
 Test-Driven Development (TDD) offers a paradigm to address this. The test cases serve as a precise and unambiguous
 guide for the code. A new problem arises when applying TDD
@@ -12,10 +12,10 @@ to LLMs. Feeding a comprehensive test suite directly into a
 model incurs prohibitive token and inference costs due to its
 large size, making it economically and practically infeasible.
 This creates a central conflict. We need the precision of test
-cases, but we cannot afford the cost of their completeness [2].
+cases, but we cannot afford the cost of their completeness [@chen2022codet].
 
 To resolve this conflict, we position the Test Case Minimization (TCM) problem at the heart of our workflow. We
-adopted a TCM Quadratic Unconstrained Binary Optimization (QUBO) model for our framework [3]. This provides
+adopted a TCM Quadratic Unconstrained Binary Optimization (QUBO) model for our framework [@wang2024test]. This provides
 a powerful mathematical framework and, more importantly,
 opens the door to acceleration using frontier technologies like
 quantum computing. In modern software development, where
@@ -85,7 +85,7 @@ The minimal test suite $T'$ acts as a precise and unambiguous functional specifi
 
 ## III. EXPERIMENTAL EVALUATION
 
-Our experimental evaluation is designed to answer two core questions (#fig:img1):  
+Our experimental evaluation is designed to answer two core questions:  
 1) What is the performance of quantum computing versus classical methods on the core task of test suite optimization?  
 2) What is the impact of our TDD framework on the final output of LLM-based code generation?
 
