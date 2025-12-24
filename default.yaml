@@ -1,0 +1,16 @@
+metadata:
+  author: Huixiang Zhang and Mahzabeen Emu.
+  date: | 
+    Department of Computer Science
+    Lakehead University
+    Thunder Bay, Canada
+  figureTitle: Рисунок 
+  figPrefix: рис.
+  titleDelim: .
+  tableTitle: Таблица
+  tblPrefix: табл.
+  eqnPrefix: форм.
+  toc-title: Оглавление
+  link-citations: true
+  bibliography: references.bib
+  csl: gost-r-7-0-5-2008-numeric.csl

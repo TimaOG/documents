@@ -85,11 +85,11 @@ The minimal test suite $T'$ acts as a precise and unambiguous functional specifi
 
 ## III. EXPERIMENTAL EVALUATION
 
-Our experimental evaluation is designed to answer two core questions:  
+Our experimental evaluation is designed to answer two core questions (#fig:img1):  
 1) What is the performance of quantum computing versus classical methods on the core task of test suite optimization?  
 2) What is the impact of our TDD framework on the final output of LLM-based code generation?
 
-![Quantum Annealing are faster then Simulated Annealing for the core TCM optimization task.](img/img1.png)
+![Quantum Annealing are faster then Simulated Annealing for the core TCM optimization task.](img1.png){#fig:img1}
 
 We first benchmarked the core task of our framework’s **Test Suite Optimization** stage. We compared the solving time of a physical quantum annealer against a classical simulated annealing solver on small- and medium-scale TCM problems.
 
